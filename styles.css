@@ -213,6 +213,10 @@ header h2{
     .gallery-container .image{
       flex: 33.33%;
     }
+    .main-container{
+      height: 60vh;
+      width: 100%;
+    }
     .about-container p{
         font-size: 30px;
         margin-left:50px;
@@ -220,7 +224,10 @@ header h2{
     }
 
     header h2{
-      font-size: 40px;
+      font-size: 50px;
+      position: relative;
+      left: 20px;
+      right: 20px;
     }
     .icon{
       font-size: 40px;
@@ -232,6 +239,12 @@ header h2{
     }
     .about-container p{
       text-align: justify;
+    }
+    .about-image-container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
   }
   
@@ -245,7 +258,10 @@ header h2{
         margin-right:50px;
     }
     header h2{
-      font-size: 40px;
+      font-size: 50px;
+      position: relative;
+      left: 20px;
+      right: 20px;
     }
     .icon{
       font-size: 40px;
@@ -257,6 +273,14 @@ header h2{
     }
     .about-container p{
       text-align: justify;
+    }
+    .about-image-container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+
     }
   }
   
@@ -266,22 +290,28 @@ header h2{
     }
     .about-container p{
         font-size: 30px;
-        margin-left:50px;
-        margin-right:50px;
+        margin-left:20px;
+        margin-right:20px;
     }
     header h2{
       font-size: 30px;
+      position: relative;
+      left: 20px;
+      right: 20px;
     }
     .icon{
       font-size: 30px;
     }
 
-    .image-container>img{
+    .image-container{
       height: 100%;
       width: 100%;
     }
-    .about-container p{
-      text-align: justify;
-      
+   
+    .about-image-container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
   }

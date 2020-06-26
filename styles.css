@@ -95,6 +95,8 @@ body {
 .main2-container svg{
   display: block;
 }
+
+
 header{
     width: 100%;
     
@@ -135,7 +137,7 @@ header h2{
 .image-container>img{
     display:flex;
     justify-content: center;
-    
+    margin-bottom: 15px;
     height: 50%;
     width: 50%;
     
@@ -272,6 +274,14 @@ header h2{
       display: flex;
       flex-direction: column;
     }
+    .main-container svg{
+      display: none;
+    
+    }
+    
+    .main2-container svg{
+      display: none;
+    }
   }
   
   @media screen and (max-width:768px) {
@@ -308,6 +318,14 @@ header h2{
 
 
     }
+    .main-container svg{
+      display: none;
+    
+    }
+    
+    .main2-container svg{
+      display: none;
+    }
   }
   
   @media screen and (max-width:480px) {
@@ -339,5 +357,13 @@ header h2{
       width: 100%;
       display: flex;
       flex-direction: column;
+    }
+    .main-container svg{
+      display: none;
+    
+    }
+    
+    .main2-container svg{
+      display: none;
     }
   }

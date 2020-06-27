@@ -75,6 +75,7 @@ body {
 .main-container{
   background-image: linear-gradient(90deg, #cdf6f7,#87dfd6);
   
+  
 }
 .main2-container{
   
@@ -87,13 +88,15 @@ body {
   background-image: linear-gradient(90deg,  #cdf6f7,#87dfd6);
 }
 
-.main-container svg{
+.svg-container{
   display: block;
+  overflow: hidden;
 
 }
 
-.main2-container svg{
+.svg1-container{
   display: block;
+  overflow: hidden;
 }
 
 
@@ -109,7 +112,7 @@ header{
 }
 
 header h2{
-    font-size: 60px;
+    font-size: 70px;
     color: #303960;
     text-align: left;
     padding-top: 40px;
@@ -123,7 +126,7 @@ header h2{
 }
 .icon{
     display: flex;
-    font-size: 60px;
+    font-size: 70px;
     color: #303960;
     flex-direction: row;
     padding: 40px;
@@ -242,7 +245,7 @@ header h2{
       flex: 33.33%;
     }
     .main-container{
-      height: 60vh;
+      height: 89vh;
       width: 100%;
     }
     .about-container p{
@@ -252,7 +255,7 @@ header h2{
     }
 
     header h2{
-      font-size: 50px;
+      font-size: 80px;
       position: relative;
       left: 20px;
       right: 20px;
@@ -264,6 +267,7 @@ header h2{
     .image-container>img{
       height: 100%;
       width: 100%;
+      margin-bottom: 30px;
     }
     .about-container p{
       text-align: justify;
@@ -274,13 +278,15 @@ header h2{
       display: flex;
       flex-direction: column;
     }
-    .main-container svg{
-      display: none;
+    .svg-container{
+      display: block;
+      overflow:hidden;
     
     }
     
-    .main2-container svg{
-      display: none;
+    .svg1-container{
+      display: block;
+      overflow: hidden;
     }
   }
   
@@ -288,13 +294,17 @@ header h2{
     .gallery-container .image{
       flex: 50%;
     }
+    .main-container{
+      height: 89vh;
+      width: 100%;
+    }
     .about-container p{
         font-size: 24px;
         margin-left:50px;
         margin-right:50px;
     }
     header h2{
-      font-size: 50px;
+      font-size: 80px;
       position: relative;
       left: 20px;
       right: 20px;
@@ -306,6 +316,7 @@ header h2{
     .image-container>img{
       height: 100%;
       width: 100%;
+      margin-bottom: 30px;
     }
     .about-container p{
       text-align: justify;
@@ -318,19 +329,25 @@ header h2{
 
 
     }
-    .main-container svg{
-      display: none;
+    .svg-container{
+      display: block;
+      overflow:hidden;
     
     }
     
-    .main2-container svg{
-      display: none;
+    .svg1-container{
+      display: block;
+      overflow: hidden;
     }
   }
   
   @media screen and (max-width:480px) {
     .gallery-container .image{
       flex: 100%;
+    }
+    .main-container{
+      height: 89vh;
+      width: 100%;
     }
     .about-container p{
         font-size: 24px;
@@ -347,9 +364,10 @@ header h2{
       font-size: 30px;
     }
 
-    .image-container{
+    .image-container>img{
       height: 100%;
       width: 100%;
+      margin-bottom: 30px;
     }
    
     .about-image-container{
@@ -358,12 +376,14 @@ header h2{
       display: flex;
       flex-direction: column;
     }
-    .main-container svg{
-      display: none;
+    .svg-container{
+      display: block;
+      overflow:hidden;
     
     }
     
-    .main2-container svg{
-      display: none;
+    .svg1-container{
+      display: block;
+      overflow: hidden;
     }
   }
